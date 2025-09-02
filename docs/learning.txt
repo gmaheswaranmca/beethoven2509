@@ -29,7 +29,7 @@ Course Objectives:
 
   * Understand the basic programming paradigms using Python 2 and Python 3
 
-  * Understand builtindatatypes, variables, functions and flow control 
+  * Understand built in data types, variables, functions and flow control 
 statements.
 
   * Learn how to use string, tuple, list, bytearray, set, dictionary types effectively.
