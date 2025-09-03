@@ -1,0 +1,75 @@
+def find_sum(first, second, third=10):#default value arg 
+    return first + second + third 
+
+# usage 
+print(find_sum(10,20,30)) #positional args
+print(find_sum(second=10,third=20,first=30)) #keyword args 
+
+print(find_sum(10,20)) #positional args
+
+def find_product(first, second, *args):
+    prod = 1
+    prod *= first * second
+    for num in args:
+        prod *= num
+    return prod
+
+def multiply(first, second, **args):
+    prod = 1
+    prod *= first * second
+    for key in args:
+        prod *= args[key]
+    return prod
+
+def fact(n)
+    if n == 1:
+        return 1
+    return n * fact(n-1)
+
+
+------------------------------Summary-----------------
+
+def find_sum(first, second, third=10):#default value arg 
+    return first + second + third 
+
+# usage 
+print(find_sum(10,20,30)) #positional args
+print(find_sum(second=10,third=20,first=30)) #keyword args 
+def find_product(first, second, *args):
+def multiply(first, second, **args):
+def fact(n)
+    if n == 1:
+        return 1
+    return n * fact(n-1)
+
+------------------------------
+
+
+OOP - 
+    app - emp { id, name, job_title, salary, join_date }
+    create, read_all
+    class Employee:
+    class ProductAnalyst(Employee):
+    class SeniorProductAnalyst(ProductAnalyst):
+    DataAnalyst(Employee)
+    class DataAndProductAnalyst(DataAnalyst, ProductAnalyst)
+    
+    BusinessAnalyst
+    ConsultingEngineer
+    ProductEngineer
+    SoftwareEngineer
+    HardwareEngineer
+
+-----------------------------------
+
+emp/ ->
+    repo.py 
+        create,             exception, log, unit test 
+        read_all
+    app.py
+        --
+test/
+
+-----------------------------------
+
+debugger 
