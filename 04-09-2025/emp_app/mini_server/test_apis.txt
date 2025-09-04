@@ -1,0 +1,28 @@
+Test Employees APIs 
+
+baseUrl: http://localhost:5000
+
+1. POST /employees 
+URL: http://localhost:5000/employees 
+REQUEST BODY: {"id":101,"name":"Dravid"}
+
+2. POST /employees 
+URL:http://localhost:5000/employees 
+REQUEST BODY: {"id":102,"name":"Ganguli"}
+
+3. GET /employees 
+URL:http://localhost:5000/employees
+
+4. GET /employees/102
+URL:http://localhost:5000/employees/102
+
+5. PUT /employees/102
+URL:http://localhost:5000/employees/102
+REQUEST BODY: {"name":"Ganguli Ji"}
+
+6. POST /employees 
+URL:http://localhost:5000/employees 
+REQUEST BODY: {"id":103,"name":"Mahesh"}
+
+7. DELETE /employees/103
+URL:http://localhost:5000/employees/103
