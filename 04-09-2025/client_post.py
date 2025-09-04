@@ -36,3 +36,4 @@ if response.status_code == 200:
     print('Post Deleted Successfully')
 else:
     print('Error in deletiing the post')
+
