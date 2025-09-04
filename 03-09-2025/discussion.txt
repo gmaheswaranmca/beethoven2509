@@ -82,3 +82,30 @@ Development:
     3. Persisten Store 
         pickle - binary file storage
     4. Exception Handling and Custom Exception Raising   
+
+
+
+
+
+
+
+
+
+Username: varUser           mahesh      mahesh' or 1=1 --  
+Password: varPassword       1234
+
+
+"SELECT username, password, .... FROM users 
+WHERE username='" + varUser + "' and password='" + varPassword + "'"
+
+cur.execute
+len(result_rows) > 0 
+
+
+SELECT username, password, .... FROM users 
+WHERE username='mahesh' and password='1234'
+
+SELECT username, password, .... FROM users 
+WHERE username='ganesh' or 1=1 --  ' and password='1234'
+
+
