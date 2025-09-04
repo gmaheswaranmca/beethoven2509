@@ -73,3 +73,12 @@ test/
 -----------------------------------
 
 debugger 
+
+
+------------------------------------------------------------------
+Development:
+    1. Debugger 
+    2. logger 
+    3. Persisten Store 
+        pickle - binary file storage
+    4. Exception Handling and Custom Exception Raising   
