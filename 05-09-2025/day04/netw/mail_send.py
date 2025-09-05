@@ -29,6 +29,6 @@ def send_gmail(to_address, subject, body):
         print("Error:", e)
         return False
 
-to_address = "gmaheswaranmca@gmail.com"
-result = send_gmail("gmaheswaranmca@gmail.com", "Test Subject", "Hello from Python!")
+#to_address = "receiver_username@gmail.com"
+result = send_gmail(to_address, "Test Subject", "Hello from Python!")
 print("Mail sent successfully?" , result)
